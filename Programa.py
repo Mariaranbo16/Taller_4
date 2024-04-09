@@ -5,13 +5,7 @@ import numpy as np
 miArreglo = np.arange(-10,10)
 print (miArreglo.ndim)
 
-miArreglo.reshape((2,10))
-
-miArreglo = np.ones ((5,4))
+miArreglo = miArreglo.reshape((2,10))
+print (miArreglo.ndim)
 print (miArreglo)
 
-miArreglo = np.zeros ((4,5))
-print (miArreglo)
-
-miArreglo = np.empty ((4,5))
-print (miArreglo)
