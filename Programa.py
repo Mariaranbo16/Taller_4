@@ -1,14 +1,14 @@
 # Importar la biblioteca 
 import numpy as np
 
-a =  np.array ([[5,10,15,20,25],[3,6,4,8,12]])
-b =  np.array ([[1,2,3,4,5],[6,7,8,9,10]])
+a =  np.array ([7.83445,5.63423,3.443242])
 
-print (a)
-print (b)
+print (a.round())  # Me redondea todos los datos 
+print (a.round(decimals=2))   #Redondea segun la cantidad de elementos que hay indicados
 
-# Se puede usar de las dos maneras, sin embargo luego de un tiempo genera algunas incosistencias
-c = np.add (a,b)
-c = a + b
-print (c)
+print (np.ceil(a))   # Redondea al siguiente entero
+print (np.floor(a))  # Redodndea al numero anterior
+
+
+
 
